@@ -11,7 +11,7 @@
 
   "data": {"url": "https://api.economicsobservatory.com/usa/grow?vega"},
 
-  "mark": "line",
+  "mark": {"type": "trail", "color" :"darkcyan"},
 
   "encoding": {
     "x": {"field": "date", "type": "temporal"},
